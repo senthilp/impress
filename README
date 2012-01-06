@@ -1,0 +1,12 @@
+Web Based Powerpoint Presentation using Impress.js
+---------------------------------------------------
+
+Impress project uses impress.js framework library to create a web based
+powerpoint presentation that can be hosted in any web server without the
+need of carrying a powerpoint file.
+
+It leverages the full potential of CSS3 transforms and transitions to 
+create the powerpoint magic in web.
+
+Compelte details of impress.js can be found at 
+http://bartaz.github.com/impress.js/#/bored
