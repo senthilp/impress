@@ -97,6 +97,15 @@ a:hover {
     text-shadow: -1px -1px 2px rgba(100,100,100,0.5);
 }
 
+pre {
+	margin: 10px 0 0;
+    font-family: "Courier New", "Andale Mono", monospace;
+    padding: 0 0.1em;
+    background: rgba(255,255,255,0.5);
+    border-radius: 0.2em;
+    text-align: left;
+}
+
 /* COMMON STEP STYLES */
 
 .step {
@@ -113,6 +122,8 @@ a:hover {
 
     font-size: 48px;
     line-height: 1.5;
+    
+    text-align: center;
 }
 
 /* fade out inactive slides */
@@ -199,8 +210,10 @@ a:hover {
 }
 
 #title h1 {
-    font-size: 190px;
-    
+    font-size: 65px;
+    position: absolute;
+    top: -1.5em;
+    left: 4.5em;
     -webkit-transform: translateZ(50px);
     -moz-transform:    translateZ(50px);
     -ms-transform:     translateZ(50px);
@@ -208,8 +221,32 @@ a:hover {
     transform:         translateZ(50px);
 }
 
-#title .footnote {
-    font-size: 32px;
+.tiny {
+    font-size: 16px;
+}
+
+.xsmall {
+	font-size: 30%;
+}
+
+.small {
+	font-size: 50%;
+}
+
+.medium {
+	font-size: 75%;
+}
+
+.large {
+	font-size: 48px;
+}
+
+.xlarge {
+	font-size: 120%;
+}
+
+.footnote {
+    text-align: left;
 }
 
 /* big thoughts */
@@ -293,6 +330,23 @@ a:hover {
     -o-transition-delay:      2s;
     transition-delay:         2s;
 
+}
+
+/* Script exec */
+#eval pre {
+	width: 570px;
+	margin: 10px 126px;
+}
+
+/* Global window */
+#gwindow pre {
+	width: 785px;
+	margin: 20px 17px;
+}
+
+/* Node list */
+#nodeList .medium {
+	font-size: 65%;
 }
 
 /* imagination */
@@ -493,4 +547,11 @@ a:hover {
 
 .impress-not-supported .fallback-message {
     display: block;
+}
+/* Custom Styles */
+.lalign {
+	text-align: left;
+}
+#reflow .lalign {
+	margin-left: 164px;
 }
