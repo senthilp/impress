@@ -39,7 +39,7 @@
 	        <p>Desktop app - Mac, Windows</p>
 	    </div>
 	    	  	    	  	    	  	    	  
-    	<div class="step" data-x="2500" data-y="7200" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
+    	<div class="step" data-x="2500" data-y="7300" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
 	        <p class="medium">
 	        	Linkedin mobile
 	        	<br/>
@@ -54,14 +54,14 @@
 	        	Google, MicroSoft ...
 	        </p>
 	    </div>	  	    	  	    	  	    	  
-    	<div class="step" data-x="3500" data-y="9800" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
+    	<div class="step" data-x="3500" data-y="10000" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
 	        <p class="small">insertAdjacentHTML <strong class="large">100% faster</strong> than innerHTML </p>
 	        <p class="small"><a href="http://jsperf.com/insertadjacenthtml-perf" target="_blank">http://jsperf.com/insertadjacenthtml-perf</a></p>
 	    </div>
-    	<div class="step" data-x="4500" data-y="12200" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
+    	<div class="step" data-x="4500" data-y="12300" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
 	        <p>Avoid {evil} <strong class="xlarge">eval</strong></p>
 	    </div>
-    	<div id ="eval" class="step" data-x="5400" data-y="14300" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
+    	<div id ="eval" class="step" data-x="5400" data-y="14500" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
 	        <p class="medium">If absolutely needed do this instead</p>	   
         	<pre class="xsmall">
         var execScript = function(rawScript) {
@@ -83,7 +83,7 @@
         };
         	</pre>
 	    </div>
-    	<div id="gwindow" class="step" data-x="6500" data-y="17200" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
+    	<div id="gwindow" class="step" data-x="6500" data-y="17500" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
 	        <p class="medium">Always prefix global variables with <strong><q>"window."</q></strong></p>
 	        <pre class="small">
  $.ajax("http://ebay.com/item", function(response) {
@@ -94,11 +94,11 @@
  work since itemConfig is not available in global scope</em>
 	        </pre>
 	    </div>		    	    	  	    	  	    	  	    	  	    	    	  	    	  	    	  	    	  
-    	<div id="nodeList" class="step" data-x="7500" data-y="19800" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
+    	<div id="nodeList" class="step" data-x="7500" data-y="20200" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
 	        <p>In JQuery</p>
 	        <p class="medium">$('.box') !=== document.getElementsByClassName('box')</p>
 	    </div>
-    	<div class="step" data-x="8300" data-y="22000" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
+    	<div class="step" data-x="8300" data-y="22400" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
 	        <p class="medium">Avoid <strong>try-catch-finally</strong> in performance-critical functions</p>
 	        <pre class="small">
   var oProperties = ['first','second','third',...,'nth'], 
@@ -113,7 +113,7 @@
   }	        
 	        </pre>
 	    </div>	  
-    	<div id="reflow" class="step" data-x="9500" data-y="25100" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
+    	<div id="reflow" class="step" data-x="9500" data-y="25600" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
 	        <p>Keep reflows minimum</p>
 	        <p class="lalign small">
 	        	- Clone nodes, instead of direct modification
@@ -123,7 +123,7 @@
 	        	- Make several style changes at once
 	        </p>
 	    </div>	    	    	    	  	    	  	    	  	    	  	    	  	    	  	    	  
-    	<div class="step" data-x="10300" data-y="27400" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
+    	<div class="step" data-x="10300" data-y="28000" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
 	        <p>Coding Style</p> 
 	        <p class="medium">Curly braces {}	left or right position matters in JS </p>
 	        <pre class="medium">
@@ -134,24 +134,24 @@
  <strong>SILENT ERROR</strong>          <strong>Works fine</strong>
 	        </pre>
 	    </div>
-   		<div class="step" data-x="11300" data-y="30300" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
+   		<div class="step" data-x="11300" data-y="31000" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
 	        <p>Use <strong>async</strong> & <strong>defer</strong> script attributes wisely!</p>
 	    </div>
-   		<div class="step" data-x="12100" data-y="32500" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
+   		<div class="step" data-x="12100" data-y="33300" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
 	        <p>Animations</p>
 	        <p class="medium">Use <strong>requestAnimationFrame</strong> over <strong>setInterval</strong></p>
 	    </div>
-   		<div class="step" data-x="12900" data-y="34700" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
+   		<div class="step" data-x="12900" data-y="35500" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
 	        <p>and finally...</p>
 	    </div>
-   		<div class="step" data-x="13700" data-y="36800" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
+   		<div class="step" data-x="13700" data-y="37700" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
 	        <p class="medium">This presenation was <strong>NOT</strong> created in Powerpoint</p>
 	    </div>
-   		<div class="step" data-x="14500" data-y="38900" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
+   		<div class="step" data-x="14500" data-y="39900" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
 	        <p class="medium">But with <strong class="large">impress.js</strong> web presentation library</p>
 	       	<p class="small"><a href="http://bartaz.github.com/impress.js/#/bored" target="_blank">More details: http://bartaz.github.com/impress.js/#/bored</a></p>
 	    </div>
-   		<div class="step" data-x="15300" data-y="41100" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
+   		<div class="step" data-x="15300" data-y="42100" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
 	        <p>Thank You</p>
 	    </div>	    		    	    	    	    	  	    		    	    	    	    	  	    	  	  	    	    	    	    	  	    		    	    	    	    	  	    	  	    	  	    	  	    	  	    	  	    	  	    	    		    	    	    	    	  	    		    	    	    	    	  	    	  	  	    	    	    	    	  	    		    	    	    	    	  	    	  	    	  	    	  	    	  	    	  	    	  	    
 	</div>
