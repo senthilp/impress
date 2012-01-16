@@ -21,9 +21,14 @@
 	        	F2E<sup>*</sup>
 	        	<br/>
 	        	Best Practices
+	        </p>	 
+	        <br/>     	          
+	        <br/>     	          
+	        <p class="small">
+	        	senthil padmanabhan - eBay Motors - @senthil_hi
 	        	<br/>
-	        	<span class="tiny footnote"><sup>*</sup> Front End Engineering</span>	       
-	        </p>	      	          
+	        	<span class="tiny footnote"><sup>*</sup> Front End Engineering</span>	   	        	    	        	 
+	        </p>
 	    </div>
     	<div id="title" class="step" data-x="400" data-y="1900" data-z="-100" data-scale="2">
 	        <h1>JavaScript</h1>	        
@@ -62,17 +67,18 @@
 	        <p>Avoid {evil} <strong class="xlarge">eval</strong></p>
 	    </div>
     	<div id ="eval" class="step" data-x="5400" data-y="14500" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
-	        <p class="medium">If absolutely needed do this instead</p>	   
+	        <p class="medium">If <strong>absolutely</strong> needed do this instead</p>	   
         	<pre class="xsmall">
         var execScript = function(rawScript) {
-            <strong>var scriptNode = document.createElement("script"),</strong>
-            headObj = document.getElementsByTagName("script")[0];            
+            var d = document,
+            <strong>scriptNode = d.createElement("script"),</strong>
+            headObj = d.getElementsByTagName("script")[0];            
             scriptNode.type = "text/javascript";
             scriptNode.async = true;	    
             if(bIE) {
-                scriptNode.text = rawScript;
+                <strong>scriptNode.text = rawScript;</strong>
             } else {
-                scriptNode.appendChild(d.createTextNode(rawScript));
+                <strong>scriptNode.appendChild(d.createTextNode(rawScript));</strong>
    			}
             try {
                 headObj.appendChild(scriptNode);
@@ -84,7 +90,7 @@
         	</pre>
 	    </div>
     	<div id="gwindow" class="step" data-x="6500" data-y="17500" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
-	        <p class="medium">Always prefix global variables with <strong><q>"window."</q></strong></p>
+	        <p class="medium">Avoid global variables, if used prefix with <strong><q>"window."</q></strong></p>
 	        <pre class="small">
  $.ajax("http://ebay.com/item", function(response) {
      var <strong>itemConfig</strong> = JSON.parse(response.itemConfig);
@@ -115,12 +121,12 @@
 	    </div>	  
     	<div id="reflow" class="step" data-x="9500" data-y="25600" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
 	        <p>Keep reflows minimum</p>
-	        <p class="lalign small">
-	        	- Clone nodes, instead of direct modification
-	        	<br/> 
+	        <p class="lalign small"> 
 	        	- Hide elements before making changes
 	        	<br/>
 	        	- Make several style changes at once
+	        	<br/>
+	        	- Clone nodes, instead of direct modification
 	        </p>
 	    </div>	    	    	    	  	    	  	    	  	    	  	    	  	    	  	    	  
     	<div class="step" data-x="10300" data-y="28000" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
