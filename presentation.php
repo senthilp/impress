@@ -71,6 +71,7 @@
         	<pre class="xsmall">
         var execScript = function(rawScript) {
             var d = document,
+                bIE = (typeof d.attachEvent !== "undefined"),
             <strong>scriptNode = d.createElement("script"),</strong>
             headObj = d.getElementsByTagName("script")[0];            
             scriptNode.type = "text/javascript";
@@ -102,7 +103,7 @@
 	    </div>		    	    	  	    	  	    	  	    	  	    	    	  	    	  	    	  	    	  
     	<div id="nodeList" class="step" data-x="7500" data-y="20200" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
 	        <p>In JQuery</p>
-	        <p class="medium">$('.box') !=== document.getElementsByClassName('box')</p>
+	        <p class="medium">$('.box') !== document.getElementsByClassName('box')</p>
 	    </div>
     	<div class="step" data-x="8300" data-y="22400" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
 	        <p class="medium">Avoid <strong>try-catch-finally</strong> in performance-critical functions</p>
