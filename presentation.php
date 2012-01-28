@@ -117,8 +117,8 @@
       <strong>// e is created & destroyed every time</strong>
       ...
     }
-  }	        
-	        </pre>
+  }</pre>  			
+	        <p class="small"><br/><a href="http://jsperf.com/try-catch-if-else" target="_blank">http://jsperf.com/try-catch-if-else</a></p>
 	    </div>	  
     	<div id="reflow" class="step" data-x="9500" data-y="25600" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
 	        <p>Keep reflows minimum</p>
