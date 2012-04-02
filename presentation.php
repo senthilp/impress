@@ -185,6 +185,7 @@
 	    </div>
    		<div class="step" data-x="23200" data-y="<?php echo getY(66000); ?>" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
 	        <p>Thank You</p>
+	        <p class="small"><a href="http://nfs" target="_blank">http://nfs</a></p>
 	    </div>	   	    	    	    	    	    	  	    		    	    	    	    	  	    	  	  	    	    	    	    	  	    		    	    	    	    	  	    	  	    	  	    	  	    	  	    	  	    	  	    	    		    	    	    	    	  	    		    	    	    	    	  	    	  	  	    	    	    	    	  	    		    	    	    	    	  	    	  	    	  	    	  	    	  	    	  	    	  	    
 	</div>
 	<script src="impress.js"></script>
