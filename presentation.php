@@ -168,7 +168,7 @@
         document.attachEvent('onclick', doSomething);
     }
 </pre>  			
-	        <p class="small"><br/><em>Complete Reference:</em> <a href="http://jsperf.com/try-catch-if-else" target="_blank">http://shichuan.github.com/javascript-patterns/</a></p>
+	        <p class="small"><br/><em>Complete Reference:</em> <a href="http://shichuan.github.com/javascript-patterns/" target="_blank">http://shichuan.github.com/javascript-patterns/</a></p>
 	    </div> 	
    		<div class="step" data-x="18800" data-y="<?php echo getY(52850); ?>" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
 	        <p>Use <strong>async</strong> & <strong>defer</strong> script attributes wisely!</p>
