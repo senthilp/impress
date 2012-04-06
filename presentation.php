@@ -184,9 +184,12 @@
 	       	<p class="small"><a href="http://bartaz.github.com/impress.js/#/bored" target="_blank">More details: http://bartaz.github.com/impress.js/#/bored</a></p>
 	    </div>
    		<div class="step" data-x="23200" data-y="<?php echo getY(66000); ?>" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
+	        <p>http://nfs</p>
+	        <p class="small"><a href="http://needforspeed" target="_blank">needforspeed</a></p>
+	    </div>
+   		<div class="step" data-x="24300" data-y="<?php echo getY(69250); ?>" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
 	        <p>Thank You</p>
-	        <p class="small"><a href="http://nfs" target="_blank">http://nfs</a></p>
-	    </div>	   	    	    	    	    	    	  	    		    	    	    	    	  	    	  	  	    	    	    	    	  	    		    	    	    	    	  	    	  	    	  	    	  	    	  	    	  	    	  	    	    		    	    	    	    	  	    		    	    	    	    	  	    	  	  	    	    	    	    	  	    		    	    	    	    	  	    	  	    	  	    	  	    	  	    	  	    	  	    
+	    </div>	   	    	    	    	    	    	  	    		    	    	    	    	  	    	  	  	    	    	    	    	  	    		    	    	    	    	  	    	  	    	  	    	  	    	  	    	  	    	  	    	    		    	    	    	    	  	    		    	    	    	    	  	    	  	  	    	    	    	    	  	    		    	    	    	    	  	    	  	    	  	    	  	    	  	    	  	    	  	    	    	   	    	    	    	    	    	  	    		    	    	    	    	  	    	  	  	    	    	    	    	  	    		    	    	    	    	  	    	  	    	  	    	  	    	  	    	  	    	  	    	    		    	    	    	    	  	    		    	    	    	    	  	    	  	  	    	    	    	    	  	    		    	    	    	    	  	    	  	    	  	    	  	    	  	    	  	    	  	    
 	</div>
 	<script src="impress.js"></script>
 </body>
