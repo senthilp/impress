@@ -134,7 +134,7 @@
 	        	<br/>
 	        	- Make several style changes at once
 	        	<br/>
-	        	- Clone nodes, instead of direct modification
+	        	- Clone nodes or create document fragments
 	        </p>
 	    </div>	    
    		<div class="step" data-x="14900" data-y="<?php echo getY(40700); ?>" data-z="-100" data-rotate-x="-40" data-rotate-y="30" data-scale="2">
